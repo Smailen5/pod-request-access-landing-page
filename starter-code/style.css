@@ -53,6 +53,7 @@ section {
     align-items: center;
 }
 
+/* paragrafo */
 section p:nth-child(2) {
     width: 90%;
     color: #C2CBE5;
@@ -130,5 +131,31 @@ form button {
         width: 635px;
         height: 509px;
         background: #121725;
+        /* position: absolute; */
+    }
+
+    main p {
+        text-align: start;
+    }
+
+    main .title {
+        font-size: 48px;
+        font-weight: 400;
+        line-height: 56px;
+    }
+
+    section {
+        align-items: flex-start;
+    }
+
+    section p:nth-child(2) {
+        width: 445px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .loghi {
+        position: relative;
+        bottom: 100px;
     }
 }
