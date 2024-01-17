@@ -262,5 +262,9 @@ form button {
         background: #B3FFE2;
     }
 
-    
+    #email-check {
+        color: red;
+        padding-left: 30px;
+        margin-top: 10px;
+    }
 }
