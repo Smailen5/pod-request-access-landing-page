@@ -13,7 +13,7 @@ body {
     align-items: center;
 }
 
-.sfondo {
+.background-img {
     background-image: url(./assets/mobile/image-host.jpg);
     background-repeat: no-repeat;
     background-size: cover;
@@ -64,24 +64,6 @@ section p:nth-child(2) {
     line-height: 25px;
 }
 
-/* questo codice non va bene, con l'altra soluzione è meglio */
-/* .loghi {
-    width: 100%;
-    display: flex;
-    gap: 15px;
-}
-
-.loghi img {
-    font-size: 10px;
-    width: 56px;
-    height: 17px;
-}
-
-.loghi img:nth-child(3),
-.loghi img:nth-child(4) {
-    width: 100px;
-} */
-
 .loghi {
     width: 100%;
     height: 15px;
@@ -123,7 +105,7 @@ form button {
     display: none;
 }
 
-/* ---------- query tablet ---------- */
+/* ---------- MEDIA TABLET ---------- */
 
 @media screen and (min-width: 481px) {
 
@@ -133,7 +115,7 @@ form button {
         justify-content: normal;
     }
 
-    .sfondo {
+    .background-img {
         background-image: url(./assets/tablet/image-host.jpg);
         width: 491px;
         height: 767px;
@@ -144,8 +126,6 @@ form button {
     .logo {
         position: absolute;
         top: -200px;
-        /* top: 40px; */
-        /* left: 40px; */
     }
 
     main {
@@ -155,7 +135,6 @@ form button {
         background: #121725;
         align-items: flex-start;
         justify-content: center;
-        /* position: absolute; */
     }
 
     main p {
@@ -182,15 +161,10 @@ form button {
         bottom: 0;
         position: absolute;
         height: auto;
-        /* flex: 1; */
-        /* gap: 25px; */
     }
 
     .loghi img {
-        /* font-size: 20px; non serve */
-        /* width: 56px; */
         height: 25px;
-        /* flex: 1; */
     }
     
 
@@ -221,7 +195,7 @@ form button {
 
 }
 
-/* media per desktop */
+/* ---------- MEDIA DESKTOP ---------- */
 
 @media only screen and (min-width: 1024px) {
 
@@ -231,24 +205,18 @@ form button {
 
     }
 
-    .sfondo {
+    .background-img {
         background-image: url(./assets/desktop/image-host.jpg);
         width: 888px;
         height: 640px;
-        /* margin: 25% 0; */
-        /* position: unset; */
         top: auto;
-        /* right: 0; */
     }
 
     .logo {
-        /* position: absolute; */
         top: -150px;
     }
 
     main {
-        /* display: flex; */
-        /* position: relative; */
         width: 723px;
         top: 66px;
     }

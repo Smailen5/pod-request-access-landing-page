@@ -4,7 +4,7 @@ document.getElementById('email-check').appendChild(newParagraph);
 
 document.getElementById('form').addEventListener('submit', (event) => {
 
-    event.preventDefault();
+    event.preventDefault(); // non inviare il form
 
     const emailValue = document.forms['form'].email.value; // valore email da passare alla funzione di validazione
 
