@@ -105,6 +105,10 @@ form button {
     font-weight: 600;
 }
 
+.dot-pattern {
+    display: none;
+}
+
 /* ---------- query tablet ---------- */
 
 @media screen and (min-width: 481px) {
@@ -124,8 +128,9 @@ form button {
 
     .logo {
         position: absolute;
-        top: 40px;
-        left: 40px;
+        top: -200px;
+        /* top: 40px; */
+        /* left: 40px; */
     }
 
     main {
@@ -201,5 +206,16 @@ form button {
         right: 0;
         width: 162px;
         margin: 5px;
+    }
+
+    .dot-pattern {
+        display: unset;
+        position: absolute;
+        bottom: 90px;
+    }
+
+    .dot-pattern img {
+        position: absolute;
+        top: 0;
     }
 }
