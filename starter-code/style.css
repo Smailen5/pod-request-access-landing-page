@@ -65,6 +65,7 @@ section p:nth-child(2) {
     width: 100%;
     display: flex;
     gap: 15px;
+    /* flex: 1; */
 }
 
 .loghi img {
@@ -133,6 +134,7 @@ form button {
         height: 509px;
         background: #121725;
         align-items: flex-start;
+        justify-content: center;
         /* position: absolute; */
     }
 
@@ -159,20 +161,41 @@ form button {
     .loghi {
         bottom: 0;
         position: absolute;
+        /* flex: 1; */
+        gap: 25px;
     }
+
     .loghi img {
-        /* position: absolute; */
+        /* font-size: 20px; non serve */
+        /* width: 56px; */
+        height: 20px;
+        flex: 1;
+    }
+
+    .loghi img:nth-child(1),
+    .loghi img:nth-child(2) {
+        flex: 0.5;
+    }
+
+    /* non mi è venuto in mente come posizionarli a destra
+    per il momento seleziono l'ultima img e li do un margine
+    destro */
+    .loghi img:last-child {
+        margin-right: 100px;
     }
 
     form {
         position: relative;
         width: 445px;
         flex-direction: row;
+        margin-top: 3em;
     }
+
     form input {
         flex: auto;
         height: 55px;
     }
+
     form button {
         position: absolute;
         right: 0;
