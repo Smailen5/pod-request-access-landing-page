@@ -128,9 +128,11 @@ form button {
     }
 
     main {
+        position: relative;
         width: 635px;
         height: 509px;
         background: #121725;
+        align-items: flex-start;
         /* position: absolute; */
     }
 
@@ -155,7 +157,26 @@ form button {
     }
 
     .loghi {
+        bottom: 0;
+        position: absolute;
+    }
+    .loghi img {
+        /* position: absolute; */
+    }
+
+    form {
         position: relative;
-        bottom: 100px;
+        width: 445px;
+        flex-direction: row;
+    }
+    form input {
+        flex: auto;
+        height: 55px;
+    }
+    form button {
+        position: absolute;
+        right: 0;
+        width: 162px;
+        margin: 5px;
     }
 }
