@@ -14,7 +14,7 @@ body {
 }
 
 .background-img {
-    background-image: url(/starter-code/assets/mobile/image-host.jpg);
+    background-image: url(starter-code/assets/mobile/image-host.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -123,7 +123,7 @@ form button {
     }
 
     .background-img {
-        background-image: url(/starter-code/assets/tablet/image-host.jpg);
+        background-image: url(starter-code/assets/tablet/image-host.jpg);
         width: 491px;
         height: 767px;
         top: 0;
@@ -212,7 +212,7 @@ form button {
     }
 
     .background-img {
-        background-image: url(/starter-code/assets/desktop/image-host.jpg);
+        background-image: url(starter-code/assets/desktop/image-host.jpg);
         width: 888px;
         height: 640px;
         top: auto;
