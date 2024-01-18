@@ -42,8 +42,8 @@ Screenshot desktop con effetto hover del button e paragrafo di errore.
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Smailen5/pod-request-access-landing-page)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Soluzione](https://github.com/Smailen5/pod-request-access-landing-page)
+- Live Site URL: [Sito live](https://smailen5.github.io/pod-request-access-landing-page/)
 
 ## My process
 
@@ -95,9 +95,3 @@ Aggiungere i colori e i `font-size` come variabili
 - Frontend Mentor - [@ Smailen5](https://www.frontendmentor.io/profile/Smailen5)
 - Linkedin - [Smailen Vargas](https://www.linkedin.com/in/smailen-vargas/)
 
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
